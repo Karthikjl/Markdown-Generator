@@ -6,6 +6,8 @@ dynamically create and download Markdown (.md) files. With an intuitive form and
 real-time preview, this tool is perfect for generating documentation files such as 
 README.md for projects.
 
+# Preview
+<a href="https://karthikjl.github.io/Markdown-Generator/">Click here</a>
 ## Features
 
 - Easy-to-use input form for Markdown details
