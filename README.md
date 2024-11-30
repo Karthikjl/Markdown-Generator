@@ -12,7 +12,6 @@ README.md for projects.
 - Real-time preview of the generated Markdown file
 - Download .md files with a single click
 - Dynamic generation based on user inputs
-- Supports custom templates for various use cases.
 
 ## Installation
 
