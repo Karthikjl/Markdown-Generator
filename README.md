@@ -17,7 +17,7 @@ README.md for projects.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/react-markdown-generator.git
+git clone https://github.com/Karthikjl/Markdown-Generator/tree/main
 
 # Navigate to the project directory
 cd react-markdown-generator
