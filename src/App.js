@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Form from "./components/Form";
+import MarkdownPreview from "./components/MarkdownPreview";
+import "./App.css";
 
-function App() {
+const App = () => {
+  const [markdownData, setMarkdownData] = useState(null);
+
+  const handleGenerate = (data) => {
+    setMarkdownData(data);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Markdown Generator</h1>
+      <Form onGenerate={handleGenerate} />
+      <MarkdownPreview data={markdownData} />
     </div>
   );
-}
+};
 
 export default App;
